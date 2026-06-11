@@ -1,3 +1,32 @@
-Flask
-requests
-pytest
+# Web framework
+Flask>=2.0,<3.0       # Production-ready web framework
+
+# HTTP requests library
+requests>=2.25,<3.0   # For making HTTP requests
+
+# Testing framework
+pytest>=7.0,<8.0      # Simple, powerful testing with Python
+
+# Linting
+flake8>=6.0,<7.0      # For code style and linting
+
+# Formatting
+black>=23.0,<25.0     # Automated code formatter
+
+# Environment variables
+python-dotenv>=1.0,<2.0 # For loading environment variables
+
+# Database integration (example: SQLite/PostgreSQL)
+SQLAlchemy>=2.0,<3.0  # Database ORM
+psycopg2-binary>=2.9,<3.0 # PostgreSQL database adapter (optional, if using Postgres)
+
+# For .env/environment configuration in dev
+python-decouple>=3.8,<4.0
+
+# Development tools
+ipython>=8.0,<9.0     # Interactive python shell
+
+# To ensure unicode handling in web APIs
+ujson>=5.0,<6.0       # Fast JSON parser (optional)
+
+# ...add any application-specific packages here
